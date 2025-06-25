@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", var(--font-sans);
+  --font-poppins: "Poppins", var(--font-sans);
+  --font-lato: "Lato", var(--font-sans);
+  --breakpoint-lg: 75rem;
+  --breakpoint-xl: 90rem;
+  --color-primary: #4f46e5;
+  --color-secondary: #f28d35;
+  --color-third: #faf8ff;
+  --color-fourth: #6f6c90;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-inter);
+    min-width: 23.4375rem;
+  }
+}
